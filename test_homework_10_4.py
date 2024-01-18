@@ -1,6 +1,5 @@
 import math
 import random
-import pytest
 
 def test_greeting():
     """
