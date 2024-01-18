@@ -57,7 +57,7 @@ def test_random_list():
     randomNumber = random.randint(1, 100)
     l = random.sample(range(randomNumber), 10)
 
-    sorted_list = l.sort()
+    l.sort()
 
     print(l)
 
